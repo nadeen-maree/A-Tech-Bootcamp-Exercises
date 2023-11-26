@@ -1,0 +1,26 @@
+#container{
+    background-color: gray;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 5px 5px;
+}
+
+.box {
+    height: 70px;
+    width: 70px;
+    border: 3px solid black;
+    display: inline-block;
+  }
+
+  #first{
+    background-color: aqua;
+  }
+
+  #second{
+    background-color: orange;
+  }
+
+  .button{
+    background-color: green;
+    border: 3px solid darkgreen;
+  }

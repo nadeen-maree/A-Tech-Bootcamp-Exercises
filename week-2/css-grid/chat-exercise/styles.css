@@ -1,0 +1,87 @@
+#chat{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15fr 1fr;
+    grid-template-areas: 
+    "f c"
+    "f i";
+}
+
+#friends{
+    grid-area: f;
+    display: grid;
+    background-color: rebeccapurple;
+}
+
+.friends-names{
+    background-color: mediumpurple;
+    height: 25px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#chatbox{
+    grid-area: c;
+    display: grid;
+    background-color: lightgray;
+}
+
+#input{
+    grid-area: i;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "a b"
+}
+
+#msg{
+    grid-area: a;
+    display: grid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#send{
+    grid-area: b;
+    display: grid;
+    background-color: rebeccapurple;
+    align-content: center;
+    justify-content: center;
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-container{
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    margin: 30px;
+    grid-template-columns: 3fr 1fr;
+    align-items: end;
+    font-family: fantasy;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.text{
+    display: grid;
+    font-size: 20px;
+    margin: 10px;
+    justify-items: start;
+}
+
+.time{
+    display: grid;
+    font-size: 8px;
+    margin: 10px;
+    justify-items: end;
+}
+
+.left{
+    background-color: gray;
+}
+
+.right{
+    background-color: green;
+    justify-self: end;
+}

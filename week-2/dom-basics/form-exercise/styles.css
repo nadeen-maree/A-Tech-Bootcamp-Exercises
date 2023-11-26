@@ -1,0 +1,69 @@
+#container{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1fr, 4);
+    grid-template-areas: 
+    "f j"
+    "a b"
+    "s r"
+    "c d";
+    width: 50%;
+    margin: 20px;
+}
+
+.texts{
+    justify-self: center;
+    align-self: center;
+}
+
+#text1{
+    grid-area: f;
+}
+
+#text2{
+    grid-area: j;
+}
+
+#text3{
+    grid-area: s;
+}
+
+#text4{
+    grid-area: r;
+}
+
+.inputs{
+    width: 50%;
+    margin: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+#name-input{
+    grid-area: a;
+}
+
+#desired-salary-input{
+    grid-area: b;
+}
+
+#birthday-input{
+    grid-area: c;
+}
+
+#phone-input{
+    grid-area: d;
+}
+
+#btn{
+    justify-self: end;
+}
+
+#welcomePage{
+    background-color: aquamarine;
+    width: 50%;
+    margin: 20px;
+    font-size: larger;
+    text-align: center;
+}
