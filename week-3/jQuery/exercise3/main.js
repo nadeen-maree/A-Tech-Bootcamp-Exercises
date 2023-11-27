@@ -1,6 +1,6 @@
 
 for (let i = 0; i < 2; i++) {
-    $('<div>').addClass('box').appendTo('body');
+    $('<div>').addClass('box').appendTo('body')
 }
 
 

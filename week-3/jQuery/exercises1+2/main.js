@@ -10,4 +10,4 @@ $("#btn").click(function () {
 // Exercise2:
 $("body").on("click", "#name", function() {
     $(this).remove()
-  });
+  })
