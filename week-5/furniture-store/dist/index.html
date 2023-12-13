@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Your money: <span id="money-display"></span></p>
+    <div id="price-container">
+        <h4>Check the price of an item:</h4>
+        <input id="furniture-input" placeholder="Furniture name">
+        <button onclick=fetchFurnitureData()>Submit</button>
+    </div>
+    <br><br>
+    <div id="purchase-container">
+        <h4>What item do you want to purchase?</h4>
+        <input id="user-input" placeholder="Buy a furniture">
+        <button onclick=purchase()>Submit</button>
+    </div>
+    
+
+    <script src="./jquery/dist/jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
